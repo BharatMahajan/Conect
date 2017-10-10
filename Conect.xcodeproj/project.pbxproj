@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF4766371DD086B00012BD2C /* APLPendulumBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4766341DD086B00012BD2C /* APLPendulumBehavior.m */; };
+		BF4766381DD086B00012BD2C /* APLDecorationView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4766361DD086B00012BD2C /* APLDecorationView.m */; };
+		BF47663D1DD0D6340012BD2C /* NotificationPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF47663C1DD0D6340012BD2C /* NotificationPageViewController.m */; };
+		BF4766431DD0D64F0012BD2C /* ReferalPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4766421DD0D64F0012BD2C /* ReferalPageViewController.m */; };
+		BF4766461DD0D6620012BD2C /* TimeSheetPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4766451DD0D6620012BD2C /* TimeSheetPageViewController.m */; };
+		BF4766491DD0D6710012BD2C /* TicketPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4766481DD0D6710012BD2C /* TicketPageViewController.m */; };
+		BF47664C1DD0D67F0012BD2C /* RedeployMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF47664B1DD0D67F0012BD2C /* RedeployMeViewController.m */; };
+		BF47664F1DD0D68D0012BD2C /* ProfilePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF47664E1DD0D68D0012BD2C /* ProfilePageViewController.m */; };
 		BF85B6181DBDE36A00C9685A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF85B6171DBDE36A00C9685A /* main.m */; };
 		BF85B61B1DBDE36A00C9685A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF85B61A1DBDE36A00C9685A /* AppDelegate.m */; };
-		BF85B61E1DBDE36A00C9685A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF85B61D1DBDE36A00C9685A /* ViewController.m */; };
 		BF85B6211DBDE36A00C9685A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF85B61F1DBDE36A00C9685A /* Main.storyboard */; };
 		BF85B6231DBDE36A00C9685A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF85B6221DBDE36A00C9685A /* Assets.xcassets */; };
 		BF85B6261DBDE36A00C9685A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF85B6241DBDE36A00C9685A /* LaunchScreen.storyboard */; };
 		BF85B6311DBDE36A00C9685A /* ConectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF85B6301DBDE36A00C9685A /* ConectTests.m */; };
 		BF85B63C1DBDE36A00C9685A /* ConectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF85B63B1DBDE36A00C9685A /* ConectUITests.m */; };
+		BFE207DB1DC7689600C267DF /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE207DA1DC7689600C267DF /* HomePageViewController.m */; };
+		BFE207DE1DC768B000C267DF /* LandingPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE207DD1DC768B000C267DF /* LandingPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +44,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF4766331DD086B00012BD2C /* APLPendulumBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLPendulumBehavior.h; sourceTree = "<group>"; };
+		BF4766341DD086B00012BD2C /* APLPendulumBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLPendulumBehavior.m; sourceTree = "<group>"; };
+		BF4766351DD086B00012BD2C /* APLDecorationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLDecorationView.h; sourceTree = "<group>"; };
+		BF4766361DD086B00012BD2C /* APLDecorationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLDecorationView.m; sourceTree = "<group>"; };
+		BF47663B1DD0D6340012BD2C /* NotificationPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationPageViewController.h; sourceTree = "<group>"; };
+		BF47663C1DD0D6340012BD2C /* NotificationPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationPageViewController.m; sourceTree = "<group>"; };
+		BF4766411DD0D64F0012BD2C /* ReferalPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReferalPageViewController.h; sourceTree = "<group>"; };
+		BF4766421DD0D64F0012BD2C /* ReferalPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReferalPageViewController.m; sourceTree = "<group>"; };
+		BF4766441DD0D6620012BD2C /* TimeSheetPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeSheetPageViewController.h; sourceTree = "<group>"; };
+		BF4766451DD0D6620012BD2C /* TimeSheetPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeSheetPageViewController.m; sourceTree = "<group>"; };
+		BF4766471DD0D6710012BD2C /* TicketPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketPageViewController.h; sourceTree = "<group>"; };
+		BF4766481DD0D6710012BD2C /* TicketPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketPageViewController.m; sourceTree = "<group>"; };
+		BF47664A1DD0D67F0012BD2C /* RedeployMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedeployMeViewController.h; sourceTree = "<group>"; };
+		BF47664B1DD0D67F0012BD2C /* RedeployMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedeployMeViewController.m; sourceTree = "<group>"; };
+		BF47664D1DD0D68D0012BD2C /* ProfilePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfilePageViewController.h; sourceTree = "<group>"; };
+		BF47664E1DD0D68D0012BD2C /* ProfilePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfilePageViewController.m; sourceTree = "<group>"; };
 		BF85B6131DBDE36A00C9685A /* Conect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Conect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF85B6171DBDE36A00C9685A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BF85B6191DBDE36A00C9685A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BF85B61A1DBDE36A00C9685A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BF85B61C1DBDE36A00C9685A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BF85B61D1DBDE36A00C9685A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BF85B6201DBDE36A00C9685A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF85B6221DBDE36A00C9685A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF85B6251DBDE36A00C9685A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +74,10 @@
 		BF85B6371DBDE36A00C9685A /* ConectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF85B63B1DBDE36A00C9685A /* ConectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConectUITests.m; sourceTree = "<group>"; };
 		BF85B63D1DBDE36A00C9685A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE207D91DC7689600C267DF /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		BFE207DA1DC7689600C267DF /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		BFE207DC1DC768B000C267DF /* LandingPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandingPageViewController.h; sourceTree = "<group>"; };
+		BFE207DD1DC768B000C267DF /* LandingPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandingPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +130,26 @@
 			children = (
 				BF85B6191DBDE36A00C9685A /* AppDelegate.h */,
 				BF85B61A1DBDE36A00C9685A /* AppDelegate.m */,
-				BF85B61C1DBDE36A00C9685A /* ViewController.h */,
-				BF85B61D1DBDE36A00C9685A /* ViewController.m */,
+				BFE207DC1DC768B000C267DF /* LandingPageViewController.h */,
+				BFE207DD1DC768B000C267DF /* LandingPageViewController.m */,
+				BF4766331DD086B00012BD2C /* APLPendulumBehavior.h */,
+				BF4766341DD086B00012BD2C /* APLPendulumBehavior.m */,
+				BF4766351DD086B00012BD2C /* APLDecorationView.h */,
+				BF4766361DD086B00012BD2C /* APLDecorationView.m */,
+				BFE207D91DC7689600C267DF /* HomePageViewController.h */,
+				BFE207DA1DC7689600C267DF /* HomePageViewController.m */,
+				BF47663B1DD0D6340012BD2C /* NotificationPageViewController.h */,
+				BF47663C1DD0D6340012BD2C /* NotificationPageViewController.m */,
+				BF4766411DD0D64F0012BD2C /* ReferalPageViewController.h */,
+				BF4766421DD0D64F0012BD2C /* ReferalPageViewController.m */,
+				BF4766441DD0D6620012BD2C /* TimeSheetPageViewController.h */,
+				BF4766451DD0D6620012BD2C /* TimeSheetPageViewController.m */,
+				BF4766471DD0D6710012BD2C /* TicketPageViewController.h */,
+				BF4766481DD0D6710012BD2C /* TicketPageViewController.m */,
+				BF47664A1DD0D67F0012BD2C /* RedeployMeViewController.h */,
+				BF47664B1DD0D67F0012BD2C /* RedeployMeViewController.m */,
+				BF47664D1DD0D68D0012BD2C /* ProfilePageViewController.h */,
+				BF47664E1DD0D68D0012BD2C /* ProfilePageViewController.m */,
 				BF85B61F1DBDE36A00C9685A /* Main.storyboard */,
 				BF85B6221DBDE36A00C9685A /* Assets.xcassets */,
 				BF85B6241DBDE36A00C9685A /* LaunchScreen.storyboard */,
@@ -202,11 +247,12 @@
 		BF85B60B1DBDE36A00C9685A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Bharat Mahajan";
 				TargetAttributes = {
 					BF85B6121DBDE36A00C9685A = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3SHZ3EQLB2;
 					};
 					BF85B62B1DBDE36A00C9685A = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -270,9 +316,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF85B61E1DBDE36A00C9685A /* ViewController.m in Sources */,
+				BF4766461DD0D6620012BD2C /* TimeSheetPageViewController.m in Sources */,
+				BF4766381DD086B00012BD2C /* APLDecorationView.m in Sources */,
+				BF47664C1DD0D67F0012BD2C /* RedeployMeViewController.m in Sources */,
+				BF47664F1DD0D68D0012BD2C /* ProfilePageViewController.m in Sources */,
+				BFE207DB1DC7689600C267DF /* HomePageViewController.m in Sources */,
+				BF4766491DD0D6710012BD2C /* TicketPageViewController.m in Sources */,
 				BF85B61B1DBDE36A00C9685A /* AppDelegate.m in Sources */,
 				BF85B6181DBDE36A00C9685A /* main.m in Sources */,
+				BFE207DE1DC768B000C267DF /* LandingPageViewController.m in Sources */,
+				BF4766371DD086B00012BD2C /* APLPendulumBehavior.m in Sources */,
+				BF4766431DD0D64F0012BD2C /* ReferalPageViewController.m in Sources */,
+				BF47663D1DD0D6340012BD2C /* NotificationPageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,8 +396,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -386,8 +443,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -415,10 +474,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Conect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.collabera.Conect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -426,10 +487,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Conect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.collabera.Conect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -498,6 +561,7 @@
 				BF85B6421DBDE36A00C9685A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF85B6431DBDE36A00C9685A /* Build configuration list for PBXNativeTarget "ConectTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +570,7 @@
 				BF85B6451DBDE36A00C9685A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF85B6461DBDE36A00C9685A /* Build configuration list for PBXNativeTarget "ConectUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +579,7 @@
 				BF85B6481DBDE36A00C9685A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
